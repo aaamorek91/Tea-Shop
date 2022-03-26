@@ -1,0 +1,51 @@
+font-family: 'Nunito Sans', sans-serif;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Body background color, font size and font family added to whole site*/
+body{
+    background-color: #000;
+    color: seashell;
+    opacity: 0.9;
+    font-size: 22px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+/* Flex container */
+
+
+/* Nav */
+.nav-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 69px;
+    width: 100%;
+    border: solid orange 3px;
+    
+}
+
+/* LOGO */ 
+#logo{
+    height: 50px;
+    border: solid white 1px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+/* Ul */
+ul{
+    list-style: none;
+}
+
+/* Links */
+li, 
+a{
+  text-decoration: underline; 
+  display: flex;
+}
+
+/* section with background image */
